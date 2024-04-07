@@ -8,3 +8,139 @@ red - #ee5253
 
 */
 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0fb9b1;
+    margin: 0px;
+}
+
+.title {
+    margin-left: 20px;
+    
+}
+.ast {
+    color: red;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto' ,sans-serif;
+    background-image: url('assets/burger-friends.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.divOne {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin-top: 30px;
+    width: 100vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.image-box{
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    background-color: rgba(225, 225, 225, .9);
+    height: 400px;
+    width: 400px;
+    margin: 15px;
+}
+
+img {
+    height: 5rem;
+    width: 5rem;
+    margin: 130px;
+    
+}
+
+.hidden {
+    display: none !important;
+}
+
+.user-choice-box {
+    display: flex;
+    background-color: rgba(225, 225, 225, .9);
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+
+.user-choice-box label{
+    margin: 0.5rem;
+}
+
+.user-choice-box h1{
+    margin-left: 15px;
+}
+
+
+.letsCookButton {
+    margin-left: 20px;
+    margin-top: 45px;
+    background-color: #0fb9b1;
+    border: none;
+    border-radius: 3px;
+    height: 2rem;
+    width: 10rem;
+    cursor: pointer;
+}
+.recipeButton {
+    background-color: rgba(225, 225, 225, .9);
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.clearButton{
+    background-color: rgba(138, 138, 138, 0.9);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    height: 2.5rem;
+    cursor: pointer;
+    position: relative;
+    top: 120px;
+    left: 130px;
+    width: 100px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.you-should-make{
+ 
+    font-style: italic;
+    margin-top: 120px; 
+    text-align: center;
+    white-space: nowrap;
+}
+
+.new-make{
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
