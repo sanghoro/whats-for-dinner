@@ -12,7 +12,8 @@ https://github.com/sanghoro/whats-for-dinner
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
--
+-![Screenshot 2024-04-06 at 9 26 06 PM](https://github.com/sanghoro/whats-for-dinner/assets/159068651/c90f5159-7555-44d3-afe6-9dadf3fecb02)
+
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
